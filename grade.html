@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Generator</title>
+    <!-- style the html file -->
+    <style>
+        body{
+            background-color: black;
+        }
+        .grade-container{
+            border: 1px solid white;
+            color: black;
+            height: 250px;
+            width: fit-content;
+            background: aqua;
+            border-radius: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 150px;
+        }
+        input{
+            height: 30px;
+            margin-bottom: 10px;
+        }
+        .grade-content{
+            padding: 20px;
+       }
+       button{
+        width: 150px;
+        height: 50px;
+        border-radius: 25px;
+        border: none;
+        background: lawngreen;
+        margin: 5px;
+        cursor: pointer;
+        font-size: larger;
+        text-align: center;
+        margin-bottom: 20px;
+       }
+       button:hover{
+        background: white;
+        color: black;
+        font-weight: bolder;
+       }
+       textarea{
+        height: 50px;
+        font-size: larger;
+        font-weight: bolder;
+        border-radius: 10px;
+        border: none;
+       }
+    </style>
+</head>
+<body>
+    <!-- create a simple form to input marks and display grade. -->
+    <div class="grade-container">
+        <div class="grade-content">
+            <label for="marks">Enter Marks:</label>
+        <input type="number" placeholder="enter student marks..." id="marks" required><br>
+        <button id="btn-1">Get Grade</button>
+        <button id="btn-2">Reset</button><br>
+        <label>The Grade:</label><br>
+        <textarea name="The Grade" id="grade" cols="30" rows="10"></textarea>
+        </div>
+        
+    </div>
+    <!-- link the Html file with the javascript file -->
+    <script src="grade.js"></script>
+</body>
+</html>
