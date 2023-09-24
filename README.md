@@ -18,7 +18,7 @@ After all operation were complete the results were displayed in the DOM.
 4. In your local terminal type git clone the the URL you copied from github.
 5. All Done.Enjoy
 
-# LICENSE
+# AUTHOR AND LICENSE
 MIT License
 
 Copyright (c) 2023 tedkelvin19
