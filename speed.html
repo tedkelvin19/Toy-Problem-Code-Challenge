@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Detector</title>
+    <!-- add css to style the body -->
+    <style>
+        body{
+            background-color: aquamarine;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+        }
+        .speed-container{
+            background-color: whitesmoke;
+            color: black;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+            border-radius: 20px;
+            height: 290px;
+            width: fit-content;
+            border: 2px solid black;
+        }
+        .speed-content{
+            padding: 20px 18px;
+        }
+        input{
+            height: 50px;
+            border-radius: 10px;
+            border: 1px solid black;
+            margin: 10px;
+            text-align: center;
+        }
+        textarea{
+            height: 50px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+            border: 2px solid black;
+            text-align: center;
+        }
+        button{
+            display: block;
+            height: 50px;
+            width: 100px;
+            border-radius: 25px;
+            background-color: aqua;
+            border: none;
+            font-weight: bold;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- create  a simple form for inputing speed  -->
+    <div class="speed-container">
+        <div class="speed-content">
+            <label for="speed">Enter Speed:</label>
+            <input type="text" name="" id="speed"><br>
+            <button id="btn-1">Get Points</button><br>
+            <label for="output">Demerit Point:</label><br>
+            <textarea name="Demerit-Point" id="out-1" cols="30" rows="10"></textarea>
+        </div>
+    </div>
+    <!-- link the html to the javascript file -->
+    <script src="speed.js"></script>
+</body>
+</html>
